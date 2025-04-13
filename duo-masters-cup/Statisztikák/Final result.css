@@ -1,0 +1,634 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+}
+
+.video-container {
+    position: relative;
+}
+
+.arenaVidIn {
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+}
+
+
+.hatter {
+    position: absolute;
+    z-index: 0;
+    opacity: 1;
+    top: 0px;
+    transition: top 1s;
+}
+
+.winnerteam {
+    position: absolute;
+    z-index: 2;
+    opacity: 1;
+    transform: scale(0.6, 0.6);
+    top: 300px;
+    left: 575px;
+    clip: rect(0px, 800px, 0px, 0px);
+    transition: top 1s, clip 1s;
+}
+
+.winnerline {
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+}
+
+.sponsorBg {
+    top: 0px;
+    position: absolute;
+    z-index: 2;
+    opacity: 1;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: top 1s;
+}
+
+.winnertitleVod {
+    position: absolute;
+    z-index: 5;
+    opacity: 1;
+}
+
+.winnertitle {
+    position: absolute;
+    z-index: 4;
+    opacity: 0;
+}
+
+#stats {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 3;
+    opacity: 1;
+    transition: opacity 1.0s;
+}
+
+
+.gameResults {
+    top: -50px;
+    left: 20px;
+    position: absolute;
+    z-index: 3;
+    opacity: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+.winnerteamName {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: 540px;
+    width: 1920px;
+    /*left: 440px;*/
+    font-size: 70px;
+    text-align: center;
+    opacity: 0;
+}
+
+.seriesScoreBg {
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+}
+
+.blueLogoSeries {
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    top: -355px;
+    left: 320px;
+    transform: scale(0.08, 0.08);
+}
+
+.blueSeriesWin {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: white;
+    top: 0px;
+    width: 500px;
+    left: 585px;
+    font-size: 72px;
+    text-align: center;
+    opacity: 1;
+}
+
+.seriesType {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: white;
+    top: 30px;
+    width: 500px;
+    left: 720px;
+    font-size: 25.34px;
+    text-align: center;
+    opacity: 1;
+}
+
+.orangeSeriesWin {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: white;
+    top: 0px;
+    width: 500px;
+    left: 860px;
+    font-size: 72px;
+    text-align: center;
+    opacity: 1;
+}
+
+.orangeLogoSeries {
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    top: -355px;
+    left: 810px;
+    transform: scale(0.08, 0.08);
+}
+
+.baseMVP {
+    position: absolute;
+    z-index: 2;
+    opacity: 1;
+    top: 260px;
+    left: 870px;
+    transform: scale(0.60, 0.60);
+}
+
+.winnerTeam {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 1;
+    transition: opacity 1s;
+}
+
+.loserTeam {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 400px;
+    z-index: 1;
+    transition: opacity 1s;
+}
+
+.winnerTeamLogo {
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    left: -70px;
+    transform: scale(0.30, 0.30);
+}
+
+.loserTeamLogo {
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    left: -70px;
+    top: 400px;
+    transform: scale(0.30, 0.30);
+}
+
+.statsBg {
+    position: absolute;
+    z-index: 0;
+    opacity: 1;
+    left: 476px;
+    top: 247px;
+}
+
+.goals {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: white;
+    top: 120px;
+    width: 500px;
+    left: 180px;
+    font-size: 139.68px;
+    text-align: center;
+    opacity: 1;
+}
+
+.teamName {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: white;
+    top: 155px;
+    width: 900px;
+    left: 505px;
+    font-size: 67.05px;
+    text-align: left;
+    opacity: 1;
+}
+
+.player1 {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 293px;
+    width: 500px;
+    left: 500px;
+    font-size: 32px;
+    text-align: left;
+    opacity: 1;
+}
+
+.player1_points {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 293px;
+    width: 500px;
+    left: 751px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player1_goals {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 293px;
+    width: 500px;
+    left: 851px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player1_assists {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 293px;
+    width: 500px;
+    left: 961px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player1_saves {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 293px;
+    width: 500px;
+    left: 1081px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player1_shots {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 293px;
+    width: 500px;
+    left: 1185px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player1_demos {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 293px;
+    width: 500px;
+    left: 1285px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player1_demoed {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 293px;
+    width: 500px;
+    left: 1385px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player2 {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 373px;
+    width: 500px;
+    left: 500px;
+    font-size: 32px;
+    text-align: left;
+    opacity: 1;
+}
+
+.player2_points {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 373px;
+    width: 500px;
+    left: 751px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player2_goals {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 373px;
+    width: 500px;
+    left: 851px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player2_assists {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 373px;
+    width: 500px;
+    left: 961px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player2_saves {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 373px;
+    width: 500px;
+    left: 1081px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player2_shots {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 373px;
+    width: 500px;
+    left: 1185px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player2_demos {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 373px;
+    width: 500px;
+    left: 1285px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player2_demoed {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 373px;
+    width: 500px;
+    left: 1385px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player3 {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 450px;
+    width: 500px;
+    left: 500px;
+    font-size: 32px;
+    text-align: left;
+    opacity: 1;
+}
+
+.player3_points {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 450px;
+    width: 500px;
+    left: 751px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player3_goals {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 450px;
+    width: 500px;
+    left: 851px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player3_assists {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 450px;
+    width: 500px;
+    left: 961px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player3_saves {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 450px;
+    width: 500px;
+    left: 1081px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player3_shots {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 450px;
+    width: 500px;
+    left: 1185px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player3_demos {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 450px;
+    width: 500px;
+    left: 1285px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+.player3_demoed {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    top: 450px;
+    width: 500px;
+    left: 1385px;
+    font-size: 32px;
+    text-align: center;
+    opacity: 1;
+}
+
+
+.excelSettings {
+    opacity: 0;
+}

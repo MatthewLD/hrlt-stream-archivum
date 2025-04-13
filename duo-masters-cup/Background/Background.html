@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://matthewld.web.elte.hu/web1/videos.html -->
+<html lang="hu">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin: 0;
+                overflow: hidden;
+                width: 1920px;
+                height: 1080px;
+            }
+
+            .jobb {
+                position: absolute;
+                transition: left 1s, top 1s;
+                left: 1920px;
+                top: -570px;
+            }
+
+            .bal {
+                position: absolute;
+                z-index: 1;
+                transition: left 1s;
+                left: -1920px;
+            }
+        </style>
+    </head>
+
+<body>
+
+    <img id="bal" class="bal" src="Grafikák/bal.png">
+    <img id="jobb" class="jobb" src="Grafikák/jobb.png">
+    
+    <script src='http://absolute/Y:/JS/obs-ws.js'></script>
+
+    <script>
+        const obs = new OBSWebSocket();
+        obs.connect('ws://localhost:4443').then(function () {
+            checkOBSCurrentScene();
+        });
+
+        function checkOBSCurrentScene() {
+            setTimeout(function () {
+                obs.call("GetCurrentProgramScene").then(function (event) {
+                    const activeSceneName = event.currentProgramSceneName;
+
+                    if (activeSceneName == "Casterek"
+                        || activeSceneName == "Visszaszámláló") {
+
+                        document.getElementById("bal").style.left = "0px";
+                        document.getElementById("jobb").style.left = "0px";
+                        document.getElementById("jobb").style.top = "0px";
+
+                    }
+                    else {
+                        setTimeout(function () {
+                            document.getElementById("bal").style.left = "-1920px";
+                            document.getElementById("jobb").style.left = "1920px";
+                            document.getElementById("jobb").style.top = "-520px";
+                        }, 300);
+                    }
+
+                    checkOBSCurrentScene()
+                });
+            }, 100);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+}
+
+pre {
+    letter-spacing: 0.06em;
+}
+
+div{
+    text-align: center;
+}
+
+.starting_soon {
+    position: absolute;
+    top: 950px;
+    left: 235px;
+    z-index: 10;
+    line-height: 1;
+    font-family: 'Bourgeois', sans-serif;
+    color: white;
+    font-size: 90px;
+    width: 1920px;
+    justify-content: center;
+    font-style: bold;
+    font-weight: 900;
+    opacity: 1;
+}
+
+.clock_minute {
+    position: absolute;
+    top: 10px;
+    left: -680px;
+    z-index: 10;
+    font-family: 'Bourgeois', sans-serif;
+    color: white;
+    font-size: 500px;
+    width: 1920px;
+    text-align: right;
+    font-style: bold;
+    font-weight: 900;
+    opacity: 1;
+}
+
+.clock_dot {
+    position: absolute;
+    top: 10px;
+    left: 315px;
+    z-index: 10;
+    font-family: 'Bourgeois', sans-serif;
+    color: white;
+    font-size: 500px;
+    width: 1920px;
+    text-align: center;
+    font-style: bold;
+    font-weight: 900;
+    opacity: 1;
+}
+
+.clock_seconds {
+    position: absolute;
+    top: 10px;
+    left: 1310px;
+    z-index: 10;
+    font-family: 'Bourgeois', sans-serif;
+    color: white;
+    font-size: 500px;
+    width: 1920px;
+    text-align: left;
+    font-style: bold;
+    font-weight: 900;
+    opacity: 1;
+}
+
+.title {
+    position: absolute;
+    top: 445px;
+    left: -00px;
+    z-index: 10;
+    font-family: 'Bourgeois', sans-serif;
+    color: white;
+    font-size: 60px;
+    width: 1920px;
+    text-align: center;
+    font-style: bold;
+    font-weight: 900;
+    opacity: 1;
+}
+
+.next_match {
+    position: absolute;
+    top: 960px;
+    left: 785px;
+    z-index: 10;
+    font-family: 'Bourgeois', sans-serif;
+    color: white;
+    font-size: 25px;
+    width: 1920px;
+    text-align: center;
+    opacity: 1;
+}
+
+.actual {
+    position: absolute;
+    top: 1025px;
+    left: 0px;
+    z-index: 10;
+    position: absolute;
+    font-family: 'Bourgeois', sans-serif;
+    color: white;
+    font-size: 35px;
+    width: 1920px;
+    text-align: center;
+    opacity: 1;
+}
+
+.excelSettings {
+    opacity: 0;
+}

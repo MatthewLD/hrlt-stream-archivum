@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+.Replay-dot {
+    position: absolute;
+    transition: opacity 1s;
+    opacity: 1;
+}

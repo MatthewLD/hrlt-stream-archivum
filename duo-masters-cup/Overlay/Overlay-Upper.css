@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+pre {
+    letter-spacing: 0.06em;
+}
+
+.overlay{
+    position: relative;
+    top: -15px;
+}
+
+.upperTitle {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: -5px;
+    width: 500px;
+    left: 710px;
+    font-size: 15px;
+    text-align: center;
+    opacity: 1;
+}
+
+.upper{
+    position: relative;
+    top: -9px;
+}
+
+.upperPanelBg
+{
+    position:absolute;
+    z-index: 0;
+}
+
+.blueLogoBg {
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
+}
+
+.orangeLogoBg {
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
+}
+
+.dotBg {
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+}
+
+.Blue-G1 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Blue-G2 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Blue-G3 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Orange-G1 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Orange-G2 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Orange-G3 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Bluescore {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: -20px;
+    width: 50px;
+    left: 780px;
+    font-size: 55px;
+    text-align: center;
+    opacity: 1;
+}
+
+.Orangescore {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: -20px;
+    width: 50px;
+    left: 1090px;
+    font-size: 55px;
+    text-align: center;
+    opacity: 1;
+}
+
+.Blueteam {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: 22px;
+    width: 600px;
+    left: 270px;
+    font-size: 30px;
+    text-align: center;
+    opacity: 1;
+    transform: scale(1.00,1.00);
+}
+
+.Bluelogo {
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0.08, 0.08);
+    top: -318px;
+    left: -90px;
+}
+
+.Orangeteam {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: 22px;
+    width: 600px;
+    left: 1050px;
+    font-size: 30px;
+    text-align: center;
+    opacity: 1;
+}
+
+.Orangelogo {
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0.08, 0.08);
+    top: -318px;
+    left: 1205px;
+}
+
+.Clock {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    width: 500px;
+    left: 713px;
+    font-size: 43px;
+    text-align: center;
+    opacity: 1;
+}
+
+.BoX {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    color: white;
+    top: 91px;
+    width: 500px;
+    left: 710px;
+    font-size: 17px;
+    text-align: center;
+    opacity: 1;
+}
+
+.bo3obo7{
+    position:absolute;
+    top: -14px;
+    opacity: 1;
+}
+
+.BoXoX {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    color: white;
+    top: 141px;
+    width: 500px;
+    left: 711px;
+    font-size: 15px;
+    text-align: center;
+    opacity: 1;
+}
+
+
+.Blue-S1 {
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+}
+
+
+.Orange-S1 {
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+}
+
+.bo3o7Bg
+{
+    position:absolute;
+    z-index: 0;
+}
+
+.excelSettings{
+    opacity: 0;
+}

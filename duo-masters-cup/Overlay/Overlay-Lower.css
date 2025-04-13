@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+.player_stats_group_left {
+    zoom: 93%;
+    position: absolute;
+    top: 135px;
+    left: 10px;
+}
+
+body {
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+.targetPlayerBackground {
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+}
+
+.PlayerOnFocus {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    top: 730px;
+    width: 500px;
+    left: -26px;
+    font-size: 35px;
+    text-align: center;
+    opacity: 0;
+}
+
+.PlayerOnFocus_score {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    top: 787px;
+    width: 500px;
+    left: 130px;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+}
+
+.PlayerOnFocus_goals {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    top: 822px;
+    width: 500px;
+    left: 130px;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+}
+
+.PlayerOnFocus_assists {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    top: 857px;
+    width: 500px;
+    left: 130px;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+}
+
+.PlayerOnFocus_shots {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    top: 892px;
+    width: 500px;
+    left: 130px;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+}
+
+.PlayerOnFocus_saves {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    top: 927px;
+    width: 500px;
+    left: 130px;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+}
+
+.PlayerOnFocus_demos {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    top: 962px;
+    width: 500px;
+    left: 130px;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+}
+
+.boost {
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+}
+
+.PlayerOnFocus_boost {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    color: white;
+    top: 805px;
+    width: 250px;
+    left: 1630px;
+    font-size: 95px;
+    text-align: center;
+    opacity: 0;
+}
+
+.boostPlace{
+    position: absolute;
+    top: 50px;
+}

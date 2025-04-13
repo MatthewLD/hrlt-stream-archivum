@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+pre {
+    letter-spacing: 0.06em;
+}
+
+.overlay {
+    position: relative;
+}
+
+.upperPanelBg {
+    position: absolute;
+    z-index: 0;
+}
+
+.blueLogoBg {
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
+}
+
+.orangeLogoBg {
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
+}
+
+.dotBg {
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+}
+
+.Blue-G1 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Blue-G2 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Blue-G3 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Orange-G1 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Orange-G2 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Orange-G3 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Bluescore {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    font-family: 'Rafigen Demo', sans-serif;
+    color: white;
+    top: -55px;
+    width: 50px;
+    left: 795px;
+    font-size: 72px;
+    text-align: left;
+    opacity: 1;
+}
+
+.Orangescore {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    font-family: 'Rafigen Demo', sans-serif;
+    color: white;
+    top: -55px;
+    width: 50px;
+    left: 1035px;
+    font-size: 72px;
+    text-align: center;
+    opacity: 1;
+}
+
+.Blueteam {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Rafigen Demo', sans-serif;
+    color: white;
+    top: -25px;
+    width: 600px;
+    left: 160px;
+    font-size: 51px;
+    text-align: right;
+    opacity: 1;
+}
+
+.Orangeteam {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Rafigen Demo', sans-serif;
+    color: white;
+    top: -25px;
+    width: 600px;
+    left: 1115px;
+    font-size: 51px;
+    text-align: left;
+    opacity: 1;
+}
+
+.Orangelogo {
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0.08, 0.08);
+    top: -343px;
+    left: 1250px;
+}
+
+.Clock {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Rafigen Demo', sans-serif;
+    color: black;
+    width: 500px;
+    left: 690px;
+    top: -33px;
+    font-size: 55px;
+    text-align: center;
+    opacity: 1;
+}
+
+.BoX {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Rafigen Demo', sans-serif;
+    color: black;
+    top: 65px;
+    width: 500px;
+    left: 685px;
+    font-size: 25px;
+    text-align: center;
+    opacity: 1;
+}
+
+
+.excelSettings {
+    opacity: 0;
+}

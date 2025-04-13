@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+.cetli-assisticon {
+    position: absolute;
+    opacity: 1;
+    z-index: 6;
+    top: 720px;
+    left: -30px;
+    transform: scale(0.30, 0.30);
+}
+
+.cetlihatter {
+    position: absolute;
+    opacity: 0;
+    z-index: 5;
+    top: 720px;
+    transform: scale(0.30, 0.30);
+
+}
+
+.Golszerzo {
+    position: absolute;
+    z-index: 6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: 920px;
+    width: 1070px;
+    left: 425px;
+    font-size: 50px;
+    text-align: center;
+    opacity: 0;
+}
+
+.Golpasszado {
+    position: absolute;
+    z-index: 6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: 988px;
+    width: 500px;
+    left: 795px;
+    font-size: 20px;
+    text-align: left;
+    opacity: 1;
+}
+
+.Goal-speed {
+    position: absolute;
+    z-index: 6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: 988px;
+    width: 500px;
+    left: 825px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 1;
+}
+
+.data-for-assister-too {
+    opacity: 0;
+}
+
+.data-without-assister {
+    opacity: 0;
+}
+
+.Goal-speed-no-assist {
+    position: absolute;
+    z-index: 6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: 988px;
+    width: 500px;
+    left: 715px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 1;
+}

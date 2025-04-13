@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+}
+
+.winnerteam {
+    position: absolute;
+    z-index: 2;
+    opacity: 1;
+    transform: scale(0.6, 0.6);
+    top: 300px;
+    left: 555px;
+    clip: rect(0px, 800px, 0px, 0px);
+    transition: top 0.5s, clip 0.5s;
+}
+
+.winnerLine {
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    clip: rect(0px,960px,1080px,960px);
+    transition: clip 1s;
+}
+
+.winnertitle {
+    position: absolute;
+    z-index: 4;
+    opacity: 0;
+    top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.winnerteamName {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: 480px;
+    width: 1920px;
+    /*left: 440px;*/
+    font-size: 70px;
+    text-align: center;
+    opacity:0;
+    transition: opacity 0.5s;
+}
+
+.excelSettings {
+    opacity: 0;
+}

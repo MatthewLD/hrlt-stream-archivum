@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+.team_boosts_group{
+    position: absolute;
+    zoom:89%;
+}
+
+.team_boosts_group_blue
+{
+    position:absolute;
+    left: -15px;
+    /*left: -280px;*/
+}
+
+.team_boosts_group_orange
+{
+    position:absolute;
+    /*left: 520px;*/
+    left: 245px;
+}
+
+.Blue-G1 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Blue-G2 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Blue-G3 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Orange-G1 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Orange-G2 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.Orange-G3 {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+
+.Boost-BG {
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+    top: -50px;
+}
+
+.Boost-BG-Blue {
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+    top: -90px;
+    transform: scale(1.0,0.60);
+}
+
+.Boost-BG-Orange {
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+    top: -90px;
+    transform: scale(1.0,0.60);
+}
+
+.Blue-Line-P1 {
+    position: absolute;
+    opacity: 1;
+    z-index:4;
+    top: 415px;
+    left: 30px;
+    transition: clip 0.1s;
+}
+
+.Blue-BG-P1 {
+    position: absolute;
+    opacity: 1;
+    z-index:3;
+    top: -50px;
+}
+
+.Blue-Line-P2 {
+    position: absolute;
+    opacity: 1;
+    z-index:4;
+    top: 485px;
+    left: 30px;
+    transition: clip 0.1s;
+}
+
+.Blue-BG-P2 {
+    position: absolute;
+    opacity: 1;
+    z-index:3;
+    top: -50px;
+}
+
+.Blue-Line-P3 {
+    position: absolute;
+    opacity: 1;
+    z-index:4;
+    top: 555px;
+    left: 30px;
+    transition: clip 0.1s;
+}
+
+
+.Blue-BG-P3 {
+    position: absolute;
+    opacity: 1;
+    z-index:3;
+    top: -50px;
+}
+
+.Blue-Boost-P1 {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    color: white;
+    top: 380px;
+    width: 500px;
+    left: 32px;
+    font-size: 20px;
+    text-align: left;
+    opacity: 1;
+}
+
+.Blue-Boost-P2 {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: 448px;
+    width: 500px;
+    left: 32px;
+    font-size: 20px;
+    text-align: left;
+    opacity: 1;
+}
+
+.Blue-Boost-P3 {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: 523px;
+    width: 500px;
+    left: 32px;
+    font-size: 20px;
+    text-align: left;
+    opacity: 1;
+}
+
+.Blue-Boost-P1-B {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    color: white;
+    top: 405px;
+    width: 500px;
+    left:5px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 1;
+}
+
+.Blue-Boost-P2-B {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    color: white;
+    top: 475px;
+    width: 500px;
+    left:5px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 1;
+}
+
+.Blue-Boost-P3-B {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    color: white;
+    top: 552px;
+    width: 500px;
+    left:5px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 1;
+}
+
+.Orange-Line-P1 {
+    position: absolute;
+    opacity: 1;
+    z-index:4;
+    top: 415px;
+    left: 1687px;
+    transition: clip 0.1s;
+}
+
+.Orange-BG-P1 {
+    position: absolute;
+    opacity: 1;
+    z-index:3;
+    top: -50px;
+}
+
+.Orange-Line-P2 {
+    position: absolute;
+    opacity: 1;
+    z-index:4;
+    top: 485px;
+    left: 1687px;
+    transition: clip 0.1s;
+}
+
+.Orange-BG-P2 {
+    position: absolute;
+    opacity: 1;
+    z-index:3;
+    top: -50px;
+}
+
+.Orange-Line-P3 {
+    position: absolute;
+    opacity: 1;
+    z-index:4;
+    top: 555px;
+    left: 1687px;
+    transition: clip 0.1s;
+}
+
+.Orange-BG-P3 {
+    position: absolute;
+    opacity: 1;
+    z-index:3;
+    top: -50px;
+}
+
+.Orange-Boost-P1 {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    color: white;
+    top: 380px;
+    width: 500px;
+    left: 1385px;
+    font-size: 20px;
+    text-align: right;
+    opacity: 1;
+}
+
+.Orange-Boost-P2 {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: 448px;
+    width: 500px;
+    left: 1385px;
+    font-size: 20px;
+    text-align: right;
+    opacity: 1;
+}
+
+.Orange-Boost-P3 {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    top: 523px;
+    width: 500px;
+    left: 1385px;
+    font-size: 20px;
+    text-align: right;
+    opacity: 1;
+}
+
+.Orange-Boost-P1-B {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    color: white;
+    top: 405px;
+    width: 500px;
+    left:1417px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 1;
+}
+
+.Orange-Boost-P2-B {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    color: white;
+    top: 475px;
+    width: 500px;
+    left:1417px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 1;
+}
+
+.Orange-Boost-P3-B {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    color: white;
+    top: 552px;
+    width: 500px;
+    left:1417px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 1;
+}
