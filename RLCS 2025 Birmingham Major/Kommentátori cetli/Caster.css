@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+}
+
+.bg {
+    position: absolute;
+    z-index: 0;
+}
+
+.nickname {
+    position: absolute;
+    top: 913px;
+    left: 760px;
+    z-index: 3;
+    font-family: 'Bourgeois', sans-serif;
+    color: white;
+    font-size: 45px;
+    width: 1920px;
+    text-align: left;
+    font-style: bold;
+    font-weight: 900;
+    opacity: 1;
+    transition: clip 3s;
+}
+
+.teljesNev {
+    position: absolute;
+    top:995px;
+    left: 760px;
+    z-index: 3;
+    font-family: 'Bourgeois', sans-serif;
+    color: #165D43;
+    font-size: 20px;
+    width: 1920px;
+    text-align: left;
+    font-style: bold;
+    font-weight: 900;
+    opacity: 1;
+    transition: clip 3s;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://matthewld.web.elte.hu/web1/videos.html -->
+<html lang="hu">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="Swiss-R4.css" title="default">
+</head>
+
+<body>
+
+	<video id="bg" class="bg" muted autoplay>
+		<source src="R4.webm" type="video/webm">
+	</video>
+
+	<div id="matches">
+		<pre id="schedule" class="schedule">4. FORDULÓ (2-1)</pre>
+		<pre id="schedule2" class="schedule2">4. FORDULÓ (1-2)</pre>
+		<div id="round1">
+			<div id="match11" class="match11">
+
+				<img id="bluelogo_left11" class="bluelogoleft" src="../Logo/Karmine Corp.png">
+				<pre id="blueteam11" class="blueteam">vs</pre>
+				<pre id="vsleft11" class="vsleft">vs</pre>
+				<pre id="orangeteam11" class="orangeteam">vs</pre>
+				<img id="orangelogo_left11" class="orangelogoleft" src="../Logo/Team BDS.png">
+			</div>
+			<div id="match12" class="match12">
+
+				<img id="bluelogo_left12" class="bluelogoleft" src="../Logo/Karmine Corp.png">
+				<pre id="blueteam12" class="blueteam">vs</pre>
+				<pre id="vsleft12" class="vsleft">vs</pre>
+				<pre id="orangeteam12" class="orangeteam">vs</pre>
+				<img id="orangelogo_left12" class="orangelogoleft" src="../Logo/Team BDS.png">
+			</div>
+			<div id="match13" class="match13">
+
+				<img id="bluelogo_left13" class="bluelogoleft" src="../Logo/Karmine Corp.png">
+				<pre id="blueteam13" class="blueteam">vs</pre>
+				<pre id="vsleft13" class="vsleft">vs</pre>
+				<pre id="orangeteam13" class="orangeteam">vs</pre>
+				<img id="orangelogo_left13" class="orangelogoleft" src="../Logo/Team BDS.png">
+			</div>
+			<div id="match14" class="match14">
+
+				<img id="bluelogo_left14" class="bluelogoleft" src="../Logo/Karmine Corp.png">
+				<pre id="blueteam14" class="blueteam">vs</pre>
+				<pre id="vsleft14" class="vsleft">vs</pre>
+				<pre id="orangeteam14" class="orangeteam">vs</pre>
+				<img id="orangelogo_left14" class="orangelogoleft" src="../Logo/Team BDS.png">
+			</div>
+			<div id="match15" class="match15">
+
+				<img id="bluelogo_left15" class="bluelogoleft" src="../Logo/Karmine Corp.png">
+				<pre id="blueteam15" class="blueteam">vs</pre>
+				<pre id="vsleft15" class="vsleft">vs</pre>
+				<pre id="orangeteam15" class="orangeteam">vs</pre>
+				<img id="orangelogo_left15" class="orangelogoleft" src="../Logo/Team BDS.png">
+			</div>
+			<div id="match16" class="match16">
+
+				<img id="bluelogo_left16" class="bluelogoleft" src="../Logo/Karmine Corp.png">
+				<pre id="blueteam16" class="blueteam">vs</pre>
+				<pre id="vsleft16" class="vsleft">vs</pre>
+				<pre id="orangeteam16" class="orangeteam">vs</pre>
+				<img id="orangelogo_left16" class="orangelogoleft" src="../Logo/Team BDS.png">
+			</div>
+		</div>
+
+	</div>
+
+	<script src="http://absolute/Y:/JS/Updater.js"></script>
+	<script src="http://absolute/Y:/JS/regex-operation.js"></script>
+
+	<script>
+		//Excel Sync Script
+		// Define settings to use
+		const settings = {
+			'string': {
+				'Y32': 'vsleft11',
+				'Y33': 'vsleft12',
+				'Y34': 'vsleft13',
+				'Y35': 'vsleft14',
+				'Y36': 'vsleft15',
+				'Y37': 'vsleft16',
+				'W40': 'blueteam11',
+				'W41': 'blueteam12',
+				'W42': 'blueteam13',
+				'W43': 'blueteam14',
+				'W44': 'blueteam15',
+				'W45': 'blueteam16',
+				'X40': 'orangeteam11',
+				'X41': 'orangeteam12',
+				'X42': 'orangeteam13',
+				'X43': 'orangeteam14',
+				'X44': 'orangeteam15',
+				'X45': 'orangeteam16',
+			},
+			// "counter": {
+			//     "A3": [
+			//         "BlueSeries1",
+			//         "BlueSeries2",
+			//         "BlueSeries3",
+			//         "BlueSeries4",
+			//     ],
+			//     "B3": [
+			//         "OrangeSeries1",
+			//         "OrangeSeries2",
+			//         "OrangeSeries3",
+			//         "OrangeSeries4",
+			//     ]
+			// },
+			"image": {
+				'W32': 'bluelogo_left11',
+				'X32': 'orangelogo_left11',
+				'W33': 'bluelogo_left12',
+				'X33': 'orangelogo_left12',
+				'W34': 'bluelogo_left13',
+				'X34': 'orangelogo_left13',
+				'W35': 'bluelogo_left14',
+				'X35': 'orangelogo_left14',
+				'W36': 'bluelogo_left15',
+				'X36': 'orangelogo_left15',
+				'W37': 'bluelogo_left16',
+				'X37': 'orangelogo_left16',
+			}
+		};
+
+		// Define spreadsheet to use
+		const spreadsheetID = '19ZY5DRAi_Hu4SXNNBNoxzOQFoDSCyX12ghNBiNUZlKA';
+
+		// Select worksheet
+		const worksheetName = 'RLCS SWISS';
+
+		// Specify the API key to use
+		// (this is just a random string, it won't work okay)
+		const apiKey = "AIzaSyA7kQQ9uccpQFmyDnLpSBhUnHm5b5xAnhg";
+
+		// Update the overlay every 3 seconds
+		const updateInterval = 4000;
+
+		// Pass those values into a new GraphicsUpdater object
+		// The code will deal with it from here
+		const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval, false);
+
+		// Import operation preset
+		u.addOperation('regex', regexOperation);
+
+		// With u fully configured, start it updating.
+		u.startUpdating();
+
+		setTimeout(function () {
+			document.getElementById("matches").style.opacity = "1.0";
+		}, 1000);
+	</script>
+
+</body>
+
+</html>

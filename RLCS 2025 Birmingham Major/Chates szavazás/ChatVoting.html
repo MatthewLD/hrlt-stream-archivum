@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://matthewld.web.elte.hu/web1/videos.html -->
+<html lang="hu">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="ChatVoting.css" title="default">
+</head>
+
+<body id="body">
+	<video id="bg" class="bg" muted autoplay>
+		<source src="háttér.webm" type="video/webm">
+	</video>
+
+	<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+	<script>
+
+		var TwitchApi = require('twitch-api');
+		var twitch = new TwitchApi({
+			clientId: 'i8t9ruy915x8e71wm0lsxh4zj3qj9u',
+			clientSecret: 'j787qucfd4boqwzqgvv1w8vd840e9g',
+			redirectUri: 'https://www.twitch.tv/hungarianrltournaments'
+		});
+
+	</script>
+
+	<div class="excelSettings">
+		<div id="blueTeamLogo">xD</div>
+		<div id="orangeTeamLogo">xD</div>
+	</div>
+</body>
+
+</html>
